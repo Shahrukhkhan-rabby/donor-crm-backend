@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ES2020",                        // Modern JS target
+    "module": "commonjs",                      // Node.js module system
+    "rootDir": "./src",                        // Source code directory
+    "outDir": "./dist",                        // Output directory for compiled JS
+    "esModuleInterop": true,                   // Allow default imports from CommonJS
+    "resolveJsonModule": true,                 // Enable importing .json files
+    "strict": true,                            // Enable all strict type-checking options
+    "skipLibCheck": true,                      // Skip checking .d.ts files
+    "forceConsistentCasingInFileNames": true   // Disallow incorrectly cased imports
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
